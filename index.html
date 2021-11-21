@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator Playground</title>
+    </head>
+    <body >
+        <div class="operation">
+            <select id="operation-select">
+                <option value="add" selected>Add</option>
+                <option value="sub" >Sub</option>
+                <option value="div">Div</option>
+                <option value="mul">Mul</option>
+            </select>
+        </div>
+        <br>
+        <form action="">
+            <label for="first-number">First number:</label><br>
+            <input type="text" id="first-number" name="first-number" value="0">
+            <label id="symbol-operation">+</label><br>
+            <label for="second-number">Second number:</label><br>
+            <input type="text" id="second-number" name="second-number" value="0"><br><br>
+            <input type="submit" value="Go!">
+        </form>
+        
+        <script src="js/app.js"></script>
+    </body>
+</html>
