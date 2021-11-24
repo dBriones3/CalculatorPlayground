@@ -3,5 +3,5 @@ const add = (a, b) => {
 }
 
 const mul = (a ,b) => {
-    return a + b;
+    return Number(a) * Number(b);
 }
