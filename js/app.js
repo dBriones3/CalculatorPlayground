@@ -12,7 +12,8 @@ const operationOptions = [
      operationFunction: sub,     
     },   
     {id: 'div',
-     symbol: '/'
+     symbol: '/',
+     operationFunction: div,     
     }, 
     {id: 'mul',
      symbol: '*',
