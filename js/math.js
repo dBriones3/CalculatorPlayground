@@ -8,3 +8,7 @@ const sub = (a, b) => {
 const mul = (a ,b) => {
     return Number(a) * Number(b);
 }
+
+const div = (a ,b) => {
+    return Number(a) / Number(b);
+}
