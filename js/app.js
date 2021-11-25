@@ -15,7 +15,8 @@ const operationOptions = [
      symbol: '/'
     }, 
     {id: 'mul',
-     symbol: '*'
+     symbol: '*',
+     operationFunction: mul,
     }];
 
 addEventListeners();
