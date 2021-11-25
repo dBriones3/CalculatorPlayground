@@ -8,7 +8,8 @@ const operationOptions = [
      operationFunction: add,
     }, 
     {id: 'sub',
-     symbol: '-'
+     symbol: '-',
+     operationFunction: sub,     
     },   
     {id: 'div',
      symbol: '/'
